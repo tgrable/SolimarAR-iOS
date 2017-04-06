@@ -24,8 +24,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //TODO:: REENABLE BEFORE DEPLOYMENTgit     
+    //TODO:: REENABLE BEFORE DEPLOYMENTgit
     [Fabric with:@[[Crashlytics class]]];
+    
+    //This is a random comment to delete
 
     return YES;
 }
