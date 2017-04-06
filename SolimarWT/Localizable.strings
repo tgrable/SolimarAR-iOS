@@ -1,0 +1,219 @@
+/* 
+  Localizable.strings
+  SolimarWT
+
+  Created by Timothy C Grable on 12/7/16.
+  Copyright © 2016 Trekk Design. All rights reserved.
+*/
+
+/**
+ * Font Name
+ **/
+/* font_name */
+"font_name" = "OpenSans";
+
+/**
+ * Menu View
+ **/
+
+/* menu_ar */
+"menu_ar" = "AR Browser";
+
+/* menu_download */
+"menu_download" = "Download a Marker";
+
+/* menu_white_paper */
+"menu_white_paper" = "White Paper Factory";
+
+/* menu_messaging */
+"menu_messaging" = "Evergreen Messaging";
+
+/* menu_about */
+"menu_about" = "The RealityBLU AR Platform";
+
+/* menu_contact */
+"menu_contact" = "Contact Solimar";
+
+/* menu_logo */
+"menu_logo" = "SolimarAR-logo";
+
+/* menu_solimar_logo */
+"menu_solimar_logo" = "solimar-logo-white";
+
+/* menu_footer */
+"menu_footer" = "©2017 Solimar Systems, Inc. All rights reserved. v0112";
+
+
+/**
+ * About
+ **/
+
+/* about_header */
+"about_header" = "The RealityBLU AR Platform";
+
+/* about_body */
+"about_body" = "Add Dynamic AR Experiences to Your Existing Documents and Branding Today!\nThe RealityBLU AR Platform includes everything you need for rapid deployment:\n• Branded AR Scanning Apps for both iOS and Android\n• Fully variable data “messaging stream”\n• Relevant experience templates and markers\n• Management of all print and interactive document layers\n• Easy-to-use production portal to create and manage campaigns\n• Variable AR asset rendering engine that delivers experiences on-the-fly\n• Integration with existing Apps via an SDK\n• Analytics and reporting on all activities\n• Seamless integration with Solimar workflows";
+
+
+/**
+ * Dynamic Messaging
+ **/
+
+/* ar_trekk_logo */
+"ar_trekk_logo" = "AR-trekk-logo";
+
+/* dynamic_messaging_header */
+"dynamic_messaging_header" = "Dynamic Evergreen Messaging";
+
+/* dynamic_messaging_body */
+"dynamic_messaging_body" = "Solimar soutions can add static, variable and even conditional messages to documents as digital inserts, onserts and as Augmented Reality (AR) experiences.\n\nThe beauty of AR is that the experiences: videos, coupons, games, etc. can constantly change, be updated, tracked and reported on - thus \"evergreen\". These experiences are triggered by markers which can be a company logo, label or other visible (soon invisible) attributes.\n\nAny document type, even ones secured in archive systems, when retrieved can trigger an experience. Bring your documents back to life with AR! Learn more about the RealityBLU cloud platform today!";
+
+/* dynamic_messaging_button */
+"dynamic_messaging_button" = "Learn More";
+
+
+/**
+ * White Paper Factory
+ **/
+
+/* chemistry_logo */
+"chemistry_logo" = "chemistry-logo";
+
+/* white_paper_header */
+"white_paper_header" = "White Paper Factory";
+
+/* white_paper_body */
+"white_paper_body" = "Chemistry™ is Solimar's Customer Communications Management (CCM) platform that blends process automation with enterprise workflow tools that optimize data, documents and messaging for distributing via multiple channels including printers, eDelivery and mobile-device intended phones/tablets. 
+
+Solimar can extract conditional information that the RealtiyBLU AR platform can dynamic convert into experiences thus bringing documents, labels, packaging to life!";
+
+/* white_paper_button */
+"white_paper_button" = "Learn More";
+
+
+/**
+ * Contact
+ **/
+
+/* contact_header */
+"contact_header" = "Contact Solimar";
+
+/* contact_body */
+"contact_body" = "We’d love to hear from you. Let us know your thoughts, questions and ideas!";
+
+/* contact_first_name */
+"contact_first_name" = "First Name";
+
+/* contact_last_name */
+"contact_last_name" = "Last Name";
+
+/* contact_company */
+"contact_company" = "Company";
+
+/* contact_email */
+"contact_email" = "Email";
+
+/* contact_phone */
+"contact_phone" = "Phone (Optional)";
+
+/* contact_comments */
+"contact_comments" = "Comments";
+
+/* contact_submit */
+"contact_submit" = "SEND";
+
+
+/**
+ * Alert View
+ **/
+
+/* alert_header */
+"alert_header" = "Solimar";
+
+/* alert_validation */
+"alert_validation" = "Please make sure all of the required fields are filled in on the contact form";
+
+/* alert_email_validation */
+"alert_email_validation" = "Please make sure you have entered a valid email";
+
+/* alert_comment_validation */
+"alert_comment_validation" = "Please make sure you have entered a valid comment";
+
+
+/**
+ * Mail View
+ **/
+
+/* mail_to */
+"mail_to" = "Mary.Ann.Rowan@solimarsystems.com";
+
+/* mail_subject */
+"mail_subject" = "Contact Submission From Solimar AR iOS App";
+
+/* mail_starting_body_string */
+"mail_starting_body_string" = "There was a contact submission from the Solimar AR iOS Application \n";
+
+/* mail_device_cannot_send */
+"mail_device_cannot_send" = "This device cannot send email";
+
+/* mail_result_sent */
+"mail_result_sent" = "Your email was sent";
+
+/* mail_result_saved */
+"mail_result_saved" = "You saved a draft of this email";
+
+/* mail_result_cancelled */
+"mail_result_cancelled" = "You cancelled sending this email";
+
+/* mail_result_failed */
+"mail_result_failed" = "Mail failed:  An error occurred when trying to compose this email";
+
+/* mail_result_error */
+"mail_result_error" = "An error occurred when trying to compose this email";
+
+
+/**
+ * Download View
+ **/
+
+/* video_header */
+"video_header" = "Watch Variable AR Video";
+
+/* video_body */
+"video_body" = "Watch the video to see how the AR platform delivers personalized AR experiences.";
+
+/* video_header2 */
+"video_header2" = "Watch the Zoo Brew Video";
+
+/* video_body2 */
+"video_body2" = "See how you can use personalized calls to action within an AR experience.";
+
+/* download_header */
+"download_header" = "SOLibank AR Statements";
+
+/* download_body */
+"download_body" = "Download";
+
+/* download_header2 */
+"download_header2" = "Zoo Brew AR Mailers";
+
+/* download_body2 */
+"download_body2" = "Get the full Zoo Brew direct mail experience with a printed marker.";
+
+
+/**
+ * License Keys
+ **/
+/* trial_key */
+"trial_key" = "PKEsuNcLgH6OUCEk3fGue3UFD4H6SA99OMsCqXSozZo6PUcvE8F1LX9AQS1M6xAa8V0w+9l/g8m/F0mRCyz6JWk684/NN0HvQIYqy6eb5dX312AO9o8bLpZAA8cPd6S0AN+alQgHnXVdlvWHSU9pOW0CVxejRP6ck2A3p4b9351TYWx0ZWRfXz3Azq7EUTaqzdFT18XPXg2kClHoEfjE829wNe4vnPDpzy68Do6NmwunF/V+bwFRoCKKPFnJxKWvNynIKdDZGVYyeeTzqLeq8R4oPurllGjPgHigcXOjfDsb+qScPQMLU7cG9hM2LExpk1aqqI4djDv1b7zg+YtsYZcx1eopCNL1wanz21oeRlV5FckAvQcdVsQQniB2P6JjTyczNdrBhiSEqec+SQd7sUhG3a01dGMLKcLSr0J1TWGs2na0IZXBq2rGS2F+G5pIFgMQd4krH08D4nsD0KHsjh6h3OgBprjOVPRETbgSyR3dKfIMYsk364qMZc+g9yjmhb7snVozQwv5njTMsYuK8ndIPc/gZx9w6zNQ8SCBkN2JxhYj79Vw1t750RnEzQRgk1qsQx4/Ip0wPDx9HEEdzA4lnCxGONEWdnsJ9CQl1ElBNWa2SlV6l6pb+vi2AeC5Gc83LSq1EBb6ne9XAUN2AI6U+dNhms5HYRctfm7nndA=";
+
+/* production_key_5*/
+"production_key_5" = "m+QD8OL0ntggX7Lw1o2Z6YN4RNiFn5ZMs2YTapxqpqjscp6xd4YVJ1C33fCKROqKK4+trZEQrxN/BOMDTq+TNEJvzZvwKD6YBOMeyQwVTSkFIUftbHJlvcMC9bH34w/YpkjPsR8moX0Kb5lNajlSSBU8S2wyT9o9SsQwzNiaHahTYWx0ZWRfX1SEthhdDt5UlN8g8dHkyiIwCjXjxBEkM/QNfE0e5hREgZUCZ1/ATpRXK8ygIepFhYRAtI0u2FW5awrQ6mXtZTGonYE2hlhZ2sCkCvnonTC5jlSMPjEWc/StAhCNTQIVBEd6VCsr3tR7sqO0XsAiUmodvqi9zFqwUgjog9dB2tuJRevKngn5UA+495TbOgcDSkfAd9+5jdAImeWPKdhkwVzolRMzH+swgPOeknt33pohh4N1GgjBNqHSgKRd/5UM2oY2zW3VUMuaXeIFyYqKyUu+widG3eO2jOexa16XWsXGF6Jp8cS9s1mCopNe/OAhtOvqyFUg5aU5kC0HJuin1Tp3OyzLQ9uOGPqzOnRZpOF9Nt5lbu24bX8IewRcN0CJOPyoProbq4mRnuMa5Qnzz1RpxiV1Hd4PPZkKVlmj/yL2XS6J7GX8cBQ1Yi5V67lRK91J3+/eabNqYrU2wQCZPhA/+4drB6aKJN5wGitbm0jj9YVKh2hZh0VTnEgHvHi7IBD6Itgg1PmpDmoSriiCLGMyVKQVPw95makRRhWJkjm/knWUSfwZEYU=";
+
+/* production_key_6 */
+"production_key_6" = "YIS49kN17gBwLR5IaSfOC9zyPNKG943oimzbDafztR9XWkMn7Xt83+HF/hTzIqKbzk8q/vXoPQKvl5OL6H0wpCeCdNSpbGuQ1GDnHunLJ5r0DCl5L3L0tq7+6URJb7Kpkwf5s1Tp11EBrYZYYryw2wq1Sfe8GO1FIM2Vi5vwddZTYWx0ZWRfXxEGwzBjBqGTrLmAFJKy3lEbrUE2H6PLQiXD82m5tASXjua6S5Vz8fI5ZfABnmrsHEGt88aVmXHPgp4+xT2zFFLH/hx+sWL8HN2J1oBYs3J6LTJxK+bXeyAJsLRO+8Ntlkq/rjzTteiooIYV7LE2vrUVNdwiFNB65UJFVtkg5Lc6B2LHVFUM4YDVNFQ961+jZdp//QbYPdsq2PaA3BzJg7Q66H44yMZVW3sVdVqjBNINjltMvUbK97xZ36HLOxv2kDwY3Z3LAy+qkcW4vTMRcTNFBY1MTLufry4+z2T93xOmGkiDSqOBmFuJedkuwRE5j1lXE7cuAMSqYwEMvoOD113HeHm4gEU7nOdlsa9jkYoFXC7wtdkNV8aCUe0uCeelYKM6YI6hpcu/KSTDRB8WdcQIfHgyOhxKny2KzoCfTkFhBIY+JcqZHwscwiffOgi2I2+3wI0rYijnOcDGqKT249lq4K+Yhi+kUfsrA1M+OmQNUzyFUB3E+u0fTzGds+IC1FX/w2deaQgC/yio8P786M3Y9wuAaFZaYgTMdUy0U+e3n5NwPzW+RS40opNzGloq0VYvSHaJCK0D";
+
+
+
+
+
