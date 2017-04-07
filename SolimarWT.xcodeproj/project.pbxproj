@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2CABD5371E53B84700CA6E6C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD5361E53B84700CA6E6C /* Reachability.m */; };
+		4C51060A1E97FD4E00FE9727 /* SolibankStatementsEU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5106091E97FD4E00FE9727 /* SolibankStatementsEU.pdf */; };
 		4C5509B01E96DC9D00611C54 /* cats_sd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509AB1E96DC8C00611C54 /* cats_sd.mp4 */; };
 		4C5509B11E96DCA100611C54 /* elephant_sd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509AC1E96DC8C00611C54 /* elephant_sd.mp4 */; };
 		4C5509B21E96DCA300611C54 /* monkey_sd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509AD1E96DC8C00611C54 /* monkey_sd.mp4 */; };
 		4C5509B31E96DCA700611C54 /* Solibank_SD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509AE1E96DC8C00611C54 /* Solibank_SD.mp4 */; };
 		4C5509B41E96DCAA00611C54 /* variable_video_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509AF1E96DC8C00611C54 /* variable_video_1.mp4 */; };
 		4C5509B61E96DCBD00611C54 /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5509B51E96DCBD00611C54 /* WikitudeSDK.framework */; };
-		4C5509B81E96DCE600611C54 /* SolibankStatementsEU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5509B71E96DCE600611C54 /* SolibankStatementsEU.pdf */; };
 		4C77C9AC1E96ABF5007BC048 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77C9AA1E96ABF5007BC048 /* Fabric.framework */; };
 		4C77C9AD1E96ABF5007BC048 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77C9AB1E96ABF5007BC048 /* Crashlytics.framework */; };
 		4F47DF8F1E40DCDB006AAE33 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47DF8E1E40DCDB006AAE33 /* Photos.framework */; };
@@ -73,13 +73,13 @@
 /* Begin PBXFileReference section */
 		2CABD5351E53B84700CA6E6C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = SolimarWT/Reachability.h; sourceTree = "<group>"; };
 		2CABD5361E53B84700CA6E6C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = SolimarWT/Reachability.m; sourceTree = "<group>"; };
+		4C5106091E97FD4E00FE9727 /* SolibankStatementsEU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SolibankStatementsEU.pdf; path = Files/SolibankStatementsEU.pdf; sourceTree = SOURCE_ROOT; };
 		4C5509AB1E96DC8C00611C54 /* cats_sd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cats_sd.mp4; sourceTree = "<group>"; };
 		4C5509AC1E96DC8C00611C54 /* elephant_sd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant_sd.mp4; sourceTree = "<group>"; };
 		4C5509AD1E96DC8C00611C54 /* monkey_sd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_sd.mp4; sourceTree = "<group>"; };
 		4C5509AE1E96DC8C00611C54 /* Solibank_SD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Solibank_SD.mp4; sourceTree = "<group>"; };
 		4C5509AF1E96DC8C00611C54 /* variable_video_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = variable_video_1.mp4; sourceTree = "<group>"; };
 		4C5509B51E96DCBD00611C54 /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
-		4C5509B71E96DCE600611C54 /* SolibankStatementsEU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SolibankStatementsEU.pdf; path = "../../../../../../Volumes/TrekkShares/Working/___EMPLOYEE Folder/Justin/Solimar WT Videos/SolibankStatementsEU.pdf"; sourceTree = "<group>"; };
 		4C77C9AA1E96ABF5007BC048 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		4C77C9AB1E96ABF5007BC048 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		4F47DF8E1E40DCDB006AAE33 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -198,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				4F5FED411E4A15C20045B765 /* SolibankStatements.pdf */,
-				4C5509B71E96DCE600611C54 /* SolibankStatementsEU.pdf */,
+				4C5106091E97FD4E00FE9727 /* SolibankStatementsEU.pdf */,
 				4F5FED431E4A15C20045B765 /* Xerox_zoobrewMarkersComplete.pdf */,
 			);
 			name = File;
@@ -415,7 +415,7 @@
 				4FE522711DF866C0006BF2CC /* OpenSans-ExtraBold.ttf in Resources */,
 				4FE522751DF866C0006BF2CC /* OpenSans-LightItalic.ttf in Resources */,
 				4FE522301DF85673006BF2CC /* Assets.xcassets in Resources */,
-				4C5509B81E96DCE600611C54 /* SolibankStatementsEU.pdf in Resources */,
+				4C51060A1E97FD4E00FE9727 /* SolibankStatementsEU.pdf in Resources */,
 				4FE5226F1DF866C0006BF2CC /* OpenSans-Bold.ttf in Resources */,
 				4FE5222E1DF85673006BF2CC /* Main.storyboard in Resources */,
 				4FE5228C1DF8B126006BF2CC /* Localizable.strings in Resources */,

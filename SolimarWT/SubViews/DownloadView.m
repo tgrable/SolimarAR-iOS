@@ -17,8 +17,8 @@
         self.tag = 1;
         self.frame = frame;
         
-        _markerImageCells = [[NSArray alloc] initWithObjects:@"front1", @"front2", @"front3", /*@"front4",*/ @"front5", nil];
-        _cellIcons = [[NSArray alloc] initWithObjects:@"Solibank-icon", @"Solibank_Videoicon", @"zoobrewmarker", /*@"ZooBrew_VideoIcon",*/ @"TREKK_verticalicon" , nil];
+        _markerImageCells = [[NSArray alloc] initWithObjects:@"front1", @"front2", @"front3", /*@"front5",*/ @"front5", nil];
+        _cellIcons = [[NSArray alloc] initWithObjects:@"Solibank-icon", @"Solibank_Videoicon", @"zoobrewmarker", /*@"ZooBrew_VideoIcon",*/ @"ZooBrew_VideoIcon" , nil];
         _bodyText = [[NSArray alloc] initWithObjects:@"Download", nil];
         _aboutText = [[NSArray alloc] initWithObjects:@"SOLibank AR Statements", @"Watch Variable AR Video", @"Zoo Brew AR Mailers", /*@"Watch Variable AR Video",*/ @"View AR Platform Video",nil];
         
@@ -71,8 +71,10 @@
         myCell.downloadText.text = @"Download:";
         myCell.overlayButtonEu.hidden = false;
         myCell.overlayButtonUs.hidden = false;
+        if (row == 0){
         myCell.overlayButtonUs.tag = 0;
         myCell.overlayButtonEu.tag = 1;
+        }
         [myCell.overlayButtonUs addTarget:self action:@selector(showMarkerSheet:)forControlEvents:UIControlEventTouchUpInside];
         [myCell.overlayButtonEu addTarget:self action:@selector(showMarkerSheet:)forControlEvents:UIControlEventTouchUpInside];
         
@@ -103,7 +105,7 @@
     }
     
     if (indexPath.row == 3){
-        [_delegate playVideo:9];
+        [_delegate playVideo:10];
     }
     
 //    if (indexPath.row == 4){ // wtf was this doing here?
@@ -123,6 +125,7 @@
     switch (sender.tag) {
         case 0:
             path = [[NSBundle mainBundle] pathForResource:@"SolibankStatements" ofType:@"pdf"];
+            break; 
         case 1:
             path = [[NSBundle mainBundle] pathForResource:@"SolibankStatementsEU" ofType:@"pdf"];
             break;

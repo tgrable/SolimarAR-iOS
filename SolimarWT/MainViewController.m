@@ -451,7 +451,7 @@
             path = [[NSBundle mainBundle] pathForResource:@"Solibank_SD" ofType:@"mp4"];
             break;
         case 10:
-            path = [[NSBundle mainBundle] pathForResource:@"Cats-SD" ofType:@"mp4"];
+            path = [[NSBundle mainBundle] pathForResource:@"cats_sd" ofType:@"mp4"];
             break;
         case 11:
             path = [[NSBundle mainBundle] pathForResource:@"Monkey-SD" ofType:@"mp4"];
